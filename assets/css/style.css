@@ -16,8 +16,11 @@ html {
     scroll-behavior: smooth;
 }
 
-main {
+body {
     background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+main{
+    width: 90%;
 }
 
 .calculator-grid {
