@@ -1,8 +1,10 @@
 /* GLOBAL*/
-* {
+
+* 
+/* {
     margin: 0;
     padding: 0;
-}
+} */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -24,8 +26,8 @@ main {
     align-items: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: minmax(50px, auto);
 }
 
 .calculator-grid > button {
@@ -34,6 +36,7 @@ main {
     border: 1px solid #fff;
     outline: none;
     background-color: rgba(255, 255, 255, 0.75);
+    
 }
 
 .calculator-grid > button:hover {
