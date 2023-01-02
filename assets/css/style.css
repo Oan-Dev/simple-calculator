@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #00AAFF, #1F2235);
 }
 main{
     width: 90%;
@@ -32,6 +32,7 @@ main{
     min-height: 100vh;
     grid-template-columns: repeat(4, 120px);
     grid-template-rows: minmax(50px, auto);
+    
 }
 
 .calculator-grid > button {
@@ -62,6 +63,11 @@ main{
     word-wrap: break-word;
     word-break: break-all;
     min-height: 120px;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
 }
 
 .output .previous-operand {
