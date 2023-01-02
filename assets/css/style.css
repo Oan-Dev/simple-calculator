@@ -78,3 +78,9 @@ main{
     color: #fff;
     font-size: 2.5rem;
 }
+
+@media screen and (max-width: 500px) {
+    .calculator-grid {
+        grid-template-columns: repeat(4, 80px);
+    }
+}
